@@ -14,8 +14,10 @@ public class Q3 {
 			c = a + b;
 			a = b;
 			b = c;
+			
+			
 		}
-
+		System.out.println();
 	}
 
 }
