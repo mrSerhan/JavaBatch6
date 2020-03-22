@@ -33,12 +33,10 @@ public class Garage {
 		car1.stop();
 		
 		
-		Dog dog1 = new Dog();
-		dog1.breed = "Shih tzu";
-		dog1.age = 2;
-		dog1.color = "Yellow";
-		dog1.name = "Lucy";
-		
+		Car2 anotherCar = new Car2();
+		anotherCar.make = "Toyota";
+		anotherCar.speed = 90;
+		anotherCar.drive();
 	}
 
 }
