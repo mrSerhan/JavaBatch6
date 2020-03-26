@@ -15,10 +15,15 @@ public class StaticKeyword {
 		System.out.println("We are building "+ brand + " with touch screen = "+touchScreen);
 	}
 	
-	void displaySpecifications() {
+	// Instance members of the class can access ALL STATIC members
+	 void displaySpecifications() {
 		System.out.println("We build phone with "+ memory + "GB in "+color+" color");
 	}
 	
+	 //STATIC METHODS CANNOT ACCESS NON STATIC MEMBERS OF THE CLASS
+//	 static void displaySpecifications() {
+//	 System.out.println("We build phone with "+ memory + "GB in "+color+" color");
+//	}
 	
 	public static void main(String [] args) {
 		// accessing static variables in static way
