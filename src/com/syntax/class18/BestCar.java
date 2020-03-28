@@ -26,6 +26,7 @@ public class BestCar {
 			car.printDetails();
 		
 			BestCar car1 =new BestCar("Toyota","Camry","Blue",2020,2,4);
+			// if swam arguments, compiler will give error
 			car.printDetails();
 		}
 		
