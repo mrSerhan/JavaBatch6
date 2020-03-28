@@ -7,9 +7,23 @@ public class Task3 {
 //and executed by calling it is name.
 
 
-	static String onlyVowels(String str) {
+	
 		
+		private static String onlyVowels (String a) {
+						String vowels = "";
+			for(int i = 0; i < a.length(); i++) {
+				if(a.charAt(i)=='a'|| a.charAt(i)=='e' || a.charAt(i)=='i' || a.charAt(i)=='o' || a.charAt(i)=='u' )  {
+					vowels = vowels+a.charAt(i);
+				}
+			}			
+			return vowels;
+		}
+		
+		public static void main(String[] args) {
+			
+			System.out.println(onlyVowels("serhan"));
+			
+		}
 		
 	}
 	
-}
