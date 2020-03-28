@@ -7,12 +7,12 @@ public class Task1 {
  * creating an instance of the class.
 */
 	
-	 int sumArray(int[] arr) {
+	protected int sumArray(int[] arr) {
 		int sum = 0;
 		for(int i = 0;i<arr.length;i++) {
 			sum+=arr[i];			
 		}
-		System.out.println("Sum of array is = "+sum);
+		
 		return sum;
 	}
 	
@@ -22,7 +22,7 @@ public class Task1 {
 		
 		Task1 sum = new Task1();
 		sum.sumArray(arr);
-		
+		System.out.println("Sum of array is = "+sum.sumArray(arr));
 	}
 	
 }
