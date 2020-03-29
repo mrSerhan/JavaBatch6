@@ -24,9 +24,6 @@ public class Task2 {
 		return average;
 	}
 	
-	
-	
-	
 	public static void main(String [] args) {
 		
 		Task2 student1 = new Task2("Serhan", 70,80, 80);
